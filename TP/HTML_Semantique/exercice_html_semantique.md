@@ -18,9 +18,7 @@ L'objectif de cet exercice est de créer une page HTML sémantique basée sur un
 
 6. **Feuille de Style (Optionnel) :** Si vous le souhaitez, ajoutez une balise `<link>` pour intégrer une feuille de style CSS afin de styliser votre page.
 
-7. **Script JavaScript (Optionnel) :** Si nécessaire, ajoutez une balise `<script>` pour intégrer des scripts JavaScript.
-
-8. **Personnalisation :** Personnalisez le contenu de chaque section en fonction du sujet que vous avez choisi.
+7. **Personnalisation :** Personnalisez le contenu de chaque section en fonction du sujet que vous avez choisi.
 
 ## Consignes Additionnelles
 
