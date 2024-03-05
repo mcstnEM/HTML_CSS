@@ -1,0 +1,10 @@
+body{
+    color:grey ;
+}
+
+/* marge espace à l'extérieur des blocs */
+section{
+    margin-top: 0;
+    margin-bottom: 50px ;
+}
+
