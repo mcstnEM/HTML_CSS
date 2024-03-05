@@ -1,0 +1,61 @@
+/* Ajout de règles au elément header, main, footer */
+header, main, footer {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+/* Des règles css en plus sont ajouter au header */
+header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 4rem;
+}
+
+/* Ajout des régles de style pour la bare de navigation */
+header>nav#navbar>ul {
+    list-style-type: none;
+    /* J'utilise la flexbox (vous le verrez plus tard) avec gap qui définit l'espacement */
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* J'enlève le underscore du par défaut de l'élement <a>; je définis la police du lien en noir */
+header>nav#navbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Quelques règles supplémentaires pour le footer */
+footer {
+    border-top: 2px solid #000;
+    margin-top: 12rem;
+}
+
+/* 
+Ici j'ai séctionné avec deux <div> le contenu du footer.
+On retrouve donc une section "footer-content" et "footer-copyright"
+*/
+footer>div.footer-content {
+    /* Encore une utilisation de la flexbox */
+    display: flex;
+    /* justify-content fait parti de la flexbox */
+    justify-content: space-between;
+}
+
+footer>div.footer-copyright {
+    /* text-align définit l'alignement du text (ici, il est centré) */
+    text-align: center;
+}
+
+main>section#index {
+    /* 
+    margin est une propriété raccourci pour définir des marges
+    https://developer.mozilla.org/fr/docs/Web/CSS/margin
+    */
+    margin: 4rem 0;
+}
+
+/* Je met un espacement pour qu'on puisse voir le fonctionnement des liens-ancres */
+main>section#about-grumpy-cat>section {
+    margin: 4rem 0;
+    width: 24rem;
+}
