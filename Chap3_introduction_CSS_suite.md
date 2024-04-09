@@ -233,3 +233,9 @@ L'héritage en CSS se réfère à la capacité d'un élément à recevoir des st
    ```
 
 La compréhension de la cascade et de l'héritage est cruciale pour écrire des styles CSS efficaces et maintenables. Ces concepts vous permettent de gérer de manière flexible et cohérente l'apparence de vos pages web.
+
+# Quiz: Chap3
+
+Ce quize vise à vous faire intégrer les notions vue dans ce chapitre.
+
+Ces notions sont des fondamentaux, ils vous permettron de résoudre des conflicts dans votre CSS.

@@ -61,6 +61,10 @@ Maintenant vous pouvez ajouter la balise `<link />` suivante dans **l'entête** 
 <link rel="icon" href="assets/images/tasse-a-cafe.png" type="image/png">
 ```
 
+> [!TIP]
+> Pour avoir des images adaptées pour les icons, vous avez des outilles en ligne, comme ce convertisseur d'image :  
+> https://favicon.io/favicon-converter/
+
 # Les `class` et les `id`
 
 Si vous avez fait attention, vous avez remarqué que pour sélectionner un élément HTML, on utilisait des attributs `class="nom-classe"` et qu'entre les balises `<style></style>` on indiquait ces `class` précédées par un point : 
@@ -80,7 +84,7 @@ On à aussi des **id** définis par les attributs `id="nom-id"` et récupéré d
 ```
 Les `class` et les `id` sont similaires, **mise à part qu'on ne peut utiliser qu'un seule `id` pour qu'un seule éléments**, les `class` quant à elles, peuvent êtres appliquées sur plusieurs éléments et un élément peut même avoir avoir plusieurs `class` séparées par un espace.
 
-Autre différence, les `id` ont une plus grande **"spécificité CSS"** que les `class`. On verra la notion de **"spécificité CSS"** un peu plus tard dans ce chapitre.
+Autre différence, les `id` ont une plus grande **"spécificité CSS"** que les `class`. On verra la notion de **"spécificité CSS"** un peu plus tard dans le chapitre 3.
 
 # Appliquer des règles CSS par défaut directement sur les éléments HTML
 
@@ -249,8 +253,6 @@ Le sélecteur d'attribut avec valeur hyphen cible les éléments ayant un attrib
 }
 ```
 
-En intégrant ces sélecteurs d'attributs dans votre feuille de style, vous pouvez cibler des éléments HTML spécifiques en fonction de la présence ou de la valeur de leurs attributs, ce qui ajoute une souplesse supplémentaire à votre méthodologie de stylisation.
-
 # Les Sélecteurs CSS
 
 Dans cette section, nous explorons les sélecteurs CSS qui permettent de cibler et d'appliquer des styles spécifiques aux éléments HTML en fonction de leur relation et de leurs attributs.
@@ -266,3 +268,14 @@ Dans cette section, nous explorons les sélecteurs CSS qui permettent de cibler 
 - **`div.flex ~ div.bigger`** : Sélectionne tous les `<div>` avec la classe `.bigger` qui sont précédés par un `<div>` avec la classe `.flex`.
 
 Ces sélecteurs offrent une flexibilité pour styliser les éléments en fonction de leur contexte et relation dans le document HTML, permettant des designs complexes et réactifs.
+
+# 02 Exercice: Créer une bare de navigation
+
+Avec ce que vous avez vu, tenté de créer une bare de navigation.
+
+> [!TIP]
+> Vous pouvez utiliser la `flexbox` avec la propriété `justify-content` pour ajancer les élements dans un bloc html.
+>
+> - `justify-content` : https://developer.mozilla.org/fr/docs/Web/CSS/justify-content)
+> 
+> La `flexbox` fera l'objet d'un chapitre. C'est une notion qui vous sera très util, vous verrez.
