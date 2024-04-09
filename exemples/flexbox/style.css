@@ -1,0 +1,52 @@
+.container {
+    /* Activation de la flexbox */
+    display: flex;
+}
+
+.item {
+    /* Déclaration des règles CSS initial pour les items dans la flexbox */
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+/* J'applique des couleurs pour mieux distinger les comportement */
+
+.item:nth-child(2n+0) {
+    background-color: coral;
+}
+
+.item:nth-child(2n+1) {
+    background-color: cyan;
+}
+
+/* Exemple d'un formulaire responsive */
+
+form {
+    width: 600px;
+    padding: 1rem;
+    border: #000 solid 1px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+div[class^="form-"] {
+    border: red solid 2px;
+}
+
+.form-name {
+    flex: 1 0 130px;
+}
+
+.form-email {
+    flex: 1 0 130px;
+}
+
+button[type="submit"] {
+    flex: 1 0 40px;
+}
