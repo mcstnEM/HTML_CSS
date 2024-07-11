@@ -1,0 +1,39 @@
+:root {
+  --grid-columns: 5;
+  --column-width: calc(100vw / var(--grid-columns));
+  --grid-back: #562456;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), calc(var(--column-width) - 10px));
+  grid-auto-rows: 100px;
+  grid-gap: 10px;
+
+  .grid-item {
+    background-color:var(--grid-back);
+  }
+}
+
+.grid2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 50px 3fr 1fr 100px;
+
+    .grid-item {
+      background-color: #CCC;
+    }
+}
+
+.highlight {
+  grid-column: 1 / span 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.aside {
+  grid-column-start: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+}
